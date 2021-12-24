@@ -4,12 +4,12 @@
     width: 100%;
 	height: 368px;
     z-index: 1;
-    background: url(../footer/image/footer.png) no-repeat 50%;
+    background: url(https://cdn.jsdelivr.net/gh/toysorrow/img@latest/superlist/footer/footer.png) no-repeat 50%;
     pointer-events: none
 }
 
 .footer-v1 {
-    margin: 250px 0 0 0 !important;
+    /* margin: 250px 0 0 0 !important; */
     background: #232323
 }
 
@@ -35,7 +35,7 @@ footer footer-background .clouds {
     right: 0;
     bottom: 0;
     left: 0;
-    background: url(../image/footer/clouds.png) repeat-x;
+    background: url(https://cdn.jsdelivr.net/gh/toysorrow/img@latest/superlist/footer/clouds.png) repeat-x;
 	background-repeat: repeat-x !important;
     background-size: 225em 15em
 }
@@ -46,7 +46,7 @@ footer footer-background .background {
     right: 0;
     bottom: 0;
     left: 0;
-    background: url(../image/footer/background.png) repeat-x;
+    background: url(https://cdn.jsdelivr.net/gh/toysorrow/img@latest/superlist/footer/background.png) repeat-x;
 	background-repeat: repeat-x !important;
     background-size: 225em 21.313em
 }
@@ -57,7 +57,7 @@ footer footer-background .foreground {
     right: 0;
     bottom: 0;
     left: 0;
-	background: url(../image/footer/foreground.png) repeat-x;
+	background: url(https://cdn.jsdelivr.net/gh/toysorrow/img@latest/superlist/footer/foreground.png) repeat-x;
     background-repeat: repeat-x !important;
     background-size: 225em 15em
 }

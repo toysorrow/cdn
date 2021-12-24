@@ -17,13 +17,13 @@ html {
 }
 
 body {
-	max-height: 100%;
 	background-color: #FFF;
-	color: #3A4145;
 	font-size: 12px;
+	max-height: 100%;
 	font-family: "Merriweather", "Open Sans", "Microsoft Jhenghei", "Microsoft Yahei", sans-serif;
-	-o-font-feature-settings: 'kern' 1;
+	color: #3A4145;
 	-moz-font-feature-settings: 'kern' 1;
+	-o-font-feature-settings: 'kern' 1;
     -ms-overflow-style: none;
     overflow: -moz-scrollbars-none
 }
@@ -54,9 +54,9 @@ li {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	padding-left: 20px;
 	font-size: 100%;
 	font-weight: normal
+	/* padding-left: 20px; */
 }
 
 h1:focus, h2:focus, h3:focus, h4:focus, h5:focus, h6:focus {
@@ -88,25 +88,29 @@ a:active {
 	text-decoration: none
 }
 
+.clear {
+	clear: both
+}
+
 button {
-	display: inline-block;
-	cursor: pointer;
 	width: auto;
-	line-height: 13px;
+	display: inline-block;
 	padding: .1rem 1.5rem;
-	border: rgba(0, 0, 0, 0.05) .1em solid;
-	border-radius: .3rem;
+	cursor: pointer;
 	outline: 0;
-	background: #5BA4E5;
-	color: #FFF;
-	font-size: 11px;	
-	font-weight: 300;
-	font-family: 'Open Sans', sans-serif;
-	letter-spacing: 1px;
-	text-align: center;
 	text-decoration: none;	
+	color: #FFF;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 11px;
+	line-height: 13px;
+	font-weight: 300;
+	text-align: center;
+	letter-spacing: 1px;
 	text-transform: uppercase;
 	text-shadow: none;
+	border-radius: .3rem;
+	border: rgba(0, 0, 0, 0.05) .1em solid;
+	background: #5BA4E5
 }
 
 b {
@@ -128,50 +132,47 @@ blockquote {
 	border-left: 4px solid #49B1F5
 }
 
-.clear {
-	clear: both
-}
 
 
 /* Layout CSS */
 
 #cover {
+	background-color: #F0F0F0;
+	z-index: 1099;   
 	position: fixed;
-    z-index: 1099;   
     top: 0;
     left: 0;
     width: 100vw;
-	height: 100vh;
-	background-color: #F0F0F0
+	height: 100vh
 }
 
 #container {
+	margin: 0 auto;
+	margin-top: 100vh;
 	width: 70%;
 	max-width: 900px;
-	margin: 0 auto;
-	margin-top: 40vh;
-	padding: 0 20px 30px 20px;
 	background-color: rgba(255, 255, 255, 0.9);
+	padding: 0 20px 0px 20px;
 	box-shadow: 0 0 20px 10px rgba(220, 220, 220, .3)
 }
 
 #content {
-	float: none;
-	width: 100%;
 	min-height: 200px;
-	margin: auto;
 	padding: 0 0 10px 0;
-	overflow: hidden;
+	-o-text-overflow: ellipsis;
 	text-overflow: ellipsis;
-	-o-text-overflow: ellipsis
+	overflow: hidden;
+	float: none;
+	margin: auto;
+	width: 100%
 }
 
 #footer {
 	position: absolute;
 	left: 0;
 	right: 0;
-	min-height: 120px;;
-	margin: 20vh 0 0 0;
+	/* min-height: 120px;;
+	margin: 20vh 0 0 0; */
 	padding: 15px 0;
 	text-align: center;
 	color: #888;
@@ -184,23 +185,49 @@ blockquote {
 
 .header {
 	display: table;
+	width: 100%;
+	height: 100vh;
+	max-height: 100vh;
+	text-align: center;
+	background-size: cover;
+	overflow: hidden;
 	position: absolute;
 	top: 0;
 	left: 0;
 	z-index: 998;
-	width: 100%;
-	height: 40vh;
-	max-height: 40vh;
-	background-size: cover;
-	overflow: hidden;
-	text-align: center;
 	box-shadow: 0 1px 2px rgba(150, 150, 150, .7)
 }
 
+.menuItem {
+    position: fixed;
+	padding: 0.6rem 0;
+    top: 0px;
+    width:100%;
+	color: #ffffff !important;
+    background-color: #232323;
+    opacity: 0.8;
+	font-size: 1.6rem;
+    font-weight: bold;
+	font-family: "Merriweather", "Open Sans", "Microsoft Jhenghei", "Microsoft Yahei", sans-serif;
+	line-height: 1.4;
+	letter-spacing: 0.01rem;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+    z-index:99999;
+}
+
+.menuItem a {
+	color: #ffffff;
+    margin: 0px 10px 0px 10px;
+}
+
 .vertical {
-	display: table-cell;
-	width: 100%;
-	vertical-align: middle
+	position: absolute;
+	top: 50%;
+	/* display: table-cell;
+	vertical-align: middle; */
+	width: 100%
 }
 
 .inner {
@@ -208,22 +235,29 @@ blockquote {
 	width: 80%;
 	max-width: 800px;
 	margin: 0 auto;
-	padding: 10px
+	/* padding: 10px */
+}
+
+.header-title, .header-subtitle {
+	/* margin: 10px 0 10px 0; */
+	letter-spacing: -1px;
+	font-weight: 700;
+	font-family: "Open Sans", sans-serif;
+	color: #FFF;
+	-webkit-animation: fade-in-down 1s;
+	animation: fade-in-down 1s both;
+	-webkit-animation-delay: .6s;
+	animation-delay: .5s;
+	text-shadow: 0 3px 6px rgba(0, 0, 0, 0.3)
+}
+
+.header-title {
+    font-size: 5rem;
+    font-family: 'Playball', cursive	
 }
 
 .header-subtitle {
-	margin: 10px 0;
-	padding: 0 !important;
-	color: #FFF;
-    font-size: 3.55rem;
-	font-weight: 700;
-	font-family: "Open Sans", sans-serif;
-	letter-spacing: -1px;
-	animation: fade-in-down 1s both;
-	-webkit-animation: fade-in-down 1s;
-	animation-delay: .5s;
-	-webkit-animation-delay: .6s;
-	text-shadow: 0 3px 6px rgba(0, 0, 0, 0.3)	
+	font-size: 4rem
 }
 
 @-webkit-keyframes fade-in-down {
@@ -673,7 +707,7 @@ blockquote {
 }
 
 .categories {
-	margin: 50px 20px 0;
+	margin: 20px 20px 0;
 	padding: 0;
 	color: #555;
 	font-size: 14px;
@@ -2469,17 +2503,22 @@ blockquote {
 @media only screen and (max-width:1200px) {
 
 	.header {
-		height: 60vh;
-		min-height: 240px;
-		max-height: 60vh;
-		padding: 15% 0;
-		box-sizing: border-box;
+		-webkit-box-sizing: border-box;
 		-moz-box-sizing: border-box;
-		-webkit-box-sizing: border-box
+		box-sizing: border-box;
+		min-height: 50px;
+		height: 30vh;
+		max-height: 30vh;
+		padding: 15% 0
     }
     
+    .header-title {
+		font-size: 4rem;
+		letter-spacing: -1px
+	}
+
 	.header-subtitle {
-		font-size: 3.3rem;
+		font-size: 3.5rem;
 		letter-spacing: -1px
 	}
 
@@ -2505,15 +2544,15 @@ blockquote {
 	}
 
 	.tags-title {
-		font-size: 14px
+		font-size: 16px
 	}
 
 	.categories-title, .categories-content ul li a {
-		font-size: 14px
+		font-size: 16px
 	}
 
 	.categories-content ul li span {
-		font-size: 13px
+		font-size: 14px
 	}
 
 	.friends .friend-content .friend-card {
@@ -2525,22 +2564,22 @@ blockquote {
 @media only screen and (max-width:960px) {
 
 	.header {
-		height: 50vh;
-		min-height: 240px;
-		max-height: 50vh;
-		padding: 15% 0;
-		box-sizing: border-box;
+		-webkit-box-sizing: border-box;
 		-moz-box-sizing: border-box;
-		-webkit-box-sizing: border-box
-	}
-
-	#animationSwitch {
-		display: none
+		box-sizing: border-box;
+		min-height: 50px;
+		height: 30vh;
+		max-height: 30vh;
+		padding: 15% 0
 	}
 
 	#container {
 		width: auto;
 		margin-top: 50vh
+	}
+
+	#animationSwitch {
+		display: none
 	}
 
 	.friends .friend-content .friend-card {
@@ -2555,23 +2594,23 @@ blockquote {
 
 @media only screen and (max-width:720px) {
 
+	.header {
+		margin-bottom: 15px;
+		height: 30vh;
+		max-height: 30vh
+    }
+
+	.inner {
+		width: auto;
+		/* margin: 2rem auto */
+	}
+
 	blockquote {
 		margin: 0 10px 24px
 	}
 
-	.header {
-		height: 40vh;
-		max-height: 40vh;
-		margin-bottom: 15px
-    }
-    
-    .inner {
-		width: auto;
-		margin: 2rem auto
-	}
-
-	.header-subtitle {
-		font-size: 2.4rem
+	.header-title, .header-subtitle {
+		font-size: 3rem
 	}
 
 	.Chinese {

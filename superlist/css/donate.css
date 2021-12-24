@@ -21,7 +21,7 @@
 	left: calc(50% + 135px);
 	width: 24px;
 	height: 24px;
-	background: no-repeat center center url(../image/donate/github.svg);
+	background: no-repeat center center url(https://cdn.jsdelivr.net/gh/toysorrow/img@latest/superlist/donate/github.svg);
 	background-size: contain;
 	opacity: 0.3;
 	transform: rotatez(15deg);
@@ -35,7 +35,7 @@
 	z-index: 1;
 	width: 70px;
 	height: 70px;
-	background: #FFD886 url(../image/donate/like.svg) no-repeat center 10px;
+	background: #FFD886 url(https://cdn.jsdelivr.net/gh/toysorrow/img@latest/superlist/donate/like.svg) no-repeat center 10px;
 	background-size: 20px;
 	color: #FFF;
 	font-size: 12px;
@@ -94,19 +94,19 @@
 }
 
 #DonateBox #PayPal {
-	background-image: url(../image/donate/paypal.svg)
+	background-image: url(https://cdn.jsdelivr.net/gh/toysorrow/img@latest/superlist/donate/paypal.svg)
 }
 
 #DonateBox #Bitcoin {
-	background-image: url(../image/donate/bitcoin.svg)
+	background-image: url(https://cdn.jsdelivr.net/gh/toysorrow/img@latest/superlist/donate/bitcoin.svg)
 }
 
 #DonateBox #AliPay {
-	background-image: url(../image/donate/alipay.svg)
+	background-image: url(https://cdn.jsdelivr.net/gh/toysorrow/img@latest/superlist/donate/alipay.svg)
 }
 
 #DonateBox #WeChat {
-	background-image: url(../image/donate/wechat.svg)
+	background-image: url(https://cdn.jsdelivr.net/gh/toysorrow/img@latest/superlist/donate/wechat.svg)
 }
 
 #QRBox {

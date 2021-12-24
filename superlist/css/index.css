@@ -56,7 +56,7 @@ li {
 h1, h2, h3, h4, h5, h6 {
 	font-size: 100%;
 	font-weight: normal;
-	padding-left: 20px
+	/* padding-left: 20px */
 }
 
 a {
@@ -131,7 +131,7 @@ b {
 	width: 70%;
 	max-width: 900px;
 	background-color: rgba(255, 255, 255, 0.9);
-	padding: 0 20px 30px 20px;
+	padding: 0 20px 0px 20px;
 	box-shadow: 0 0 20px 10px rgba(220, 220, 220, .3)
 }
 
@@ -150,8 +150,8 @@ b {
 	position: absolute;
 	left: 0;
 	right: 0;
-	min-height: 120px;
-	margin: 20vh 0 0 0;
+	/* min-height: 120px;
+	margin: 20vh 0 0 0; */
 	padding: 15px 0;
 	text-align: center;
 	color: #888;
@@ -177,9 +177,35 @@ b {
 	box-shadow: 0 1px 2px rgba(150, 150, 150, .7)
 }
 
+.menuItem {
+    position: fixed;
+	padding: 0.6rem 0;
+    top: 0px;
+    width:100%;
+	color: #ffffff !important;
+    background-color: #232323;
+    opacity: 0.8;
+	font-size: 1.6rem;
+    font-weight: bold;
+	font-family: "Merriweather", "Open Sans", "Microsoft Jhenghei", "Microsoft Yahei", sans-serif;
+	line-height: 1.4;
+	letter-spacing: 0.01rem;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+    z-index:99999;
+}
+
+.menuItem a {
+	color: #ffffff;
+    margin: 0px 10px 0px 10px;
+}
+
 .vertical {
-	display: table-cell;
-	vertical-align: middle;
+	position: absolute;
+	top: 50%;
+	/* display: block;
+	vertical-align: middle; */
 	width: 100%
 }
 
@@ -188,11 +214,11 @@ b {
 	width: 80%;
 	max-width: 800px;
 	margin: 0 auto;
-	padding: 10px
+	/* padding: 10px */
 }
 
 .header-title, .header-subtitle {
-	margin: 10px 0 10px 0;
+	/* margin: 10px 0 10px 0; */
 	letter-spacing: -1px;
 	font-weight: 700;
 	font-family: "Open Sans", sans-serif;
@@ -2256,9 +2282,9 @@ b {
 		-webkit-box-sizing: border-box;
 		-moz-box-sizing: border-box;
 		box-sizing: border-box;
-		min-height: 240px;
-		height: 60vh;
-		max-height: 60vh;
+		min-height: 50px;
+		height: 30vh;
+		max-height: 30vh;
 		padding: 15% 0
     }
     
@@ -2313,9 +2339,9 @@ b {
 		-webkit-box-sizing: border-box;
 		-moz-box-sizing: border-box;
 		box-sizing: border-box;
-		min-height: 240px;
-		height: 50vh;
-		max-height: 50vh;
+		min-height: 50px;
+		height: 30vh;
+		max-height: 30vh;
 		padding: 15% 0
 	}
 
@@ -2338,13 +2364,13 @@ b {
 
     .header {
 		margin-bottom: 15px;
-		height: 40vh;
-		max-height: 40vh
+		height: 30vh;
+		max-height: 30vh
     }
     
     .inner {
 		width: auto;
-		margin: 2rem auto
+		/* margin: 2rem auto */
 	}
 
 	.header-title, .header-subtitle {
@@ -2362,8 +2388,8 @@ b {
 
     #container {
 		margin-top: 40vh;
-		padding-left: 10px;
-		padding-right: 10px;
+		/* padding-left: 10px; */
+		/* padding-right: 10px; */
 		box-shadow: unset
 	}
 
