@@ -3,51 +3,51 @@ require.config({
     waitSeconds: window.config.Require.waitSeconds,
     map: {
         '*': {
-            'css': 'https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.1/superlist/js/css.min.js'
+            'css': 'https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.2/superlist/js/css.min.js'
         }
     },
     paths: {
         //-- Rotate
-        Rotate: 'https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.1/superlist/js/jquery.rotate.min',
+        Rotate: 'https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.2/superlist/js/jquery.rotate.min',
         //-- Snap Svg
-        SnapSvg: 'https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.1/superlist/js/snap.svg-min',
+        SnapSvg: 'https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.2/superlist/js/snap.svg-min',
         //-- Menu
-        Classie: 'https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.1/superlist/js/classie',
-        Menu: 'https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.1/superlist/js/menu',
+        Classie: 'https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.2/superlist/js/classie',
+        Menu: 'https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.2/superlist/js/menu',
         //-- Search
-        InstantSearch: 'https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.1/superlist/js/instantsearch.min',
-        Search: 'https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.1/superlist/js/search',
+        InstantSearch: 'https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.2/superlist/js/instantsearch.min',
+        Search: 'https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.2/superlist/js/search',
         //-- Lazy Load
-        LazyLoad: 'https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.1/superlist/js/jquery.lazyload.min',
+        LazyLoad: 'https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.2/superlist/js/jquery.lazyload.min',
         //-- Home Animation
-        CircleMagic: 'https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.1/superlist/js/circleMagic',
+        CircleMagic: 'https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.2/superlist/js/circleMagic',
         //-- Article Animation
-        TweenMax: 'https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.1/superlist/js/TweenMax.min',
-        Tween: 'https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.1/superlist/js/Tween',
+        TweenMax: 'https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.2/superlist/js/TweenMax.min',
+        Tween: 'https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.2/superlist/js/Tween',
         //-- Donate
-        Donate: 'https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.1/superlist/js/donate',
+        Donate: 'https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.2/superlist/js/donate',
         //-- ProgressBar
-        ToProgress: 'https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.1/superlist/js/ToProgress.min',
+        ToProgress: 'https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.2/superlist/js/ToProgress.min',
 	    //-- Ribbons
-        RibbonsEffect: 'https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.1/superlist/js/RibbonsEffect',
+        RibbonsEffect: 'https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.2/superlist/js/RibbonsEffect',
         //-- Tocbot
-        Tocbot: 'https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.1/superlist/js/tocbot',
+        Tocbot: 'https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.2/superlist/js/tocbot',
         //-- LeanCloud Storage
-        LeanCloud: 'https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.1/superlist/js/av-min',
+        LeanCloud: 'https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.2/superlist/js/av-min',
         //-- Valine
-        Valine: 'https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.1/superlist/js/Valine.min',
+        Valine: 'https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.2/superlist/js/Valine.min',
         //-- Tools
-        Tools: 'https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.1/superlist/js/tools',
+        Tools: 'https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.2/superlist/js/tools',
         //-- Clipboard
-        Clipboard: 'https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.1/superlist/js/clipboard.min',
+        Clipboard: 'https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.2/superlist/js/clipboard.min',
         //-- FancyBox
-        FancyBox: 'https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.1/superlist/js/jquery.fancybox',
+        FancyBox: 'https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.2/superlist/js/jquery.fancybox',
         //-- Gsap
-        Gsap: 'https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.1/superlist/js/gsap.min',
+        Gsap: 'https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.2/superlist/js/gsap.min',
         //-- Mouse
-        Mouse: 'https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.1/superlist/js/mouse',
+        Mouse: 'https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.2/superlist/js/mouse',
         //-- Base
-        Base: 'https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.1/superlist/js/base'
+        Base: 'https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.2/superlist/js/base'
     },
     shim:{
         Classie: {

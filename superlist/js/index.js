@@ -3,13 +3,13 @@
         GitHubUserName: "toysorrow",
         GitHubRepositories: "superlist",
         BlogUser: "richman2200",
-        BlogAvatar: "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.1/superlist/image/sidebar/avatar.jpg",
+        BlogAvatar: "https://cdn.jsdelivr.net/gh/toysorrow/img@latest/superlist/sidebar/avatar.jpg",
         BlogStartDate: "2018-18-18",
         WebsiteTitleBlur: "wellcome",
         WebsiteTitleBlurTimeOut: 500,
         WebsiteTitleFocus: "wellcome",
         WebsiteTitleFocusTimeOut: 1000,
-        WebsiteFavicon: "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.1/superlist/image/website/logo.png",
+        WebsiteFavicon: "https://cdn.jsdelivr.net/gh/toysorrow/img@latest/superlist/website/logo.png",
         ProgressBar: {
             id: "topProgressBar",
             color: "#77B6FF",
@@ -77,11 +77,11 @@
             animateSections: true
         },
         HomeHeaderImage: [
-            "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.1/superlist/image/header/home.jpg"
+            "https://cdn.jsdelivr.net/gh/toysorrow/img@latest/superlist/header/home.jpg"
         ],
         HomeBannerText: "",
         ArticleHeaderImage: [
-            "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.1/superlist/image/header/article.jpg"
+            "https://cdn.jsdelivr.net/gh/toysorrow/img@latest/superlist/header/article.jpg"
         ],
         OtherBannerText: "",
         MenuList : [
@@ -105,8 +105,8 @@
         Donate: {
             paypal : "",
             bitcoin: "",
-            alipay : "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.1/superlist/image/donate/alipay.png",
-            wechat : "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.1/superlist/image/donate/wechat.png"
+            alipay : "https://cdn.jsdelivr.net/gh/toysorrow/img@latest/superlist/donate/alipay.png",
+            wechat : "https://cdn.jsdelivr.net/gh/toysorrow/img@latest/superlist/donate/wechat.png"
         },
         Code: {
             style: "normal"
@@ -129,7 +129,7 @@
             el: ".comments-content",
             appId: "srhKtvWPQTWYKh3qX8G8M7v0-gzGzoHsz",
             appKey: "8uVSP1q6UlALVC5igYfIfv2h",
-            placeholder: "你是我一生只会遇见一次的惊喜...",
+            placeholder: "...",
             notify: false,
             verify: false,
             avatar: "mm",
@@ -150,7 +150,7 @@
             positionFixedClass: "toc-fixed"
         }, 
         Require: {
-            baseUrl: "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.1/superlist/js/",
+            baseUrl: "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.2/superlist/js/",
             waitSeconds: 100
         },
         Music: {
@@ -170,9 +170,9 @@
                 {
                     name: "Endless Tears",
                     artist: "CLIFF EDGE",
-                    cover: "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.1/superlist/music/cover/Endless Tears.jpg",
-                    url: "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.1/superlist/music/song/Endless Tears.mp3",
-                    lrc: "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.1/superlist/music/lrc/Endless Tears.lrc"
+                    cover: "https://cdn.jsdelivr.net/gh/toysorrow/img@latest/superlist/music/cover/Endless Tears.jpg",
+                    url: "https://cdn.jsdelivr.net/gh/toysorrow/img@latest/superlist/music/song/Endless Tears.mp3",
+                    lrc: "https://cdn.jsdelivr.net/gh/toysorrow/img@latest/superlist/music/lrc/Endless Tears.lrc"
                 }
             ]
         },
@@ -199,46 +199,46 @@
             }
         },
         LazyLoad: {
-            default: "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.1/superlist/image/website/lazyload.svg"
+            default: "https://cdn.jsdelivr.net/gh/toysorrow/img@latest/superlist/website/lazyload.svg"
         },
         Style: {
-            aplayer: "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.1/superlist/css/APlayer.css",
-            archive: "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.1/superlist/css/archive.css",
-            donate: "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.1/superlist/css/donate.css",
-            fancybox: "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.1/superlist/css/jquery.fancybox.css",
-            footer: "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.1/superlist/css/footer.css",
-            iconfont: "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.1/superlist/css/font_1546312_l3yohatebw.css",
-            index: "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.1/superlist/css/index.css",
-            menuBubble: "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.1/superlist/css/menu-bubble.css",
-            page: "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.1/superlist/css/page.css",
-            post: "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.1/superlist/css/post.css",
-            search: "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.1/superlist/css/search.css",
-            tocbot: "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.1/superlist/css/tocbot.css",
-            normal: "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.1/superlist/css/normal.css",
-            night: "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.1/superlist/css/night.css",
-            clipboard: "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.1/superlist/css/clipboard.css",
-            mouse: "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.1/superlist/css/mouse.css"
+            aplayer: "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.2/superlist/css/APlayer.css",
+            archive: "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.2/superlist/css/archive.css",
+            donate: "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.2/superlist/css/donate.css",
+            fancybox: "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.2/superlist/css/jquery.fancybox.css",
+            footer: "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.2/superlist/css/footer.css",
+            iconfont: "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.2/superlist/css/font_1546312_l3yohatebw.css",
+            index: "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.2/superlist/css/index.css",
+            menuBubble: "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.2/superlist/css/menu-bubble.css",
+            page: "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.2/superlist/css/page.css",
+            post: "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.2/superlist/css/post.css",
+            search: "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.2/superlist/css/search.css",
+            tocbot: "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.2/superlist/css/tocbot.css",
+            normal: "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.2/superlist/css/normal.css",
+            night: "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.2/superlist/css/night.css",
+            clipboard: "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.2/superlist/css/clipboard.css",
+            mouse: "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.2/superlist/css/mouse.css"
         },
         Script: {
-            aplayer: "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.1/superlist/js/APlayer.min.js",
-            config: "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.1/superlist/js/require.config.js",
-            index: "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.1/superlist/js/index.js",
-            instantSearch: "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.1/superlist/js/instantsearch.min.js",
-            jQuery: "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.1/superlist/js/jquery-3.4.1.min.js",
-            loading: "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.1/superlist/js/loading.js",
-            meting: "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.1/superlist/js/Meting.min.js",
-            iscroll: "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.1/superlist/js/iscroll.js",
-            require: "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.1/superlist/js/require.min.js"
+            aplayer: "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.2/superlist/js/APlayer.min.js",
+            config: "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.2/superlist/js/require.config.js",
+            index: "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.2/superlist/js/index.js",
+            instantSearch: "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.2/superlist/js/instantsearch.min.js",
+            jQuery: "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.2/superlist/js/jquery-3.4.1.min.js",
+            loading: "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.2/superlist/js/loading.js",
+            meting: "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.2/superlist/js/Meting.min.js",
+            iscroll: "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.2/superlist/js/iscroll.js",
+            require: "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.2/superlist/js/require.min.js"
         },
         Font: {
-            LongCang: "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.1/superlist/font/LongCang.css",
-            Monda: "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.1/superlist/font/Monda.css",
-            NotoSansSC: "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.1/superlist/font/NotoSansSC.css",
-            Playball: "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.1/superlist/font/Playball.css",
-            PTMono: "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.1/superlist/font/PTMono.css",
-            RobotoSlab: "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.1/superlist/font/RobotoSlab.css",
-            Rosario: "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.1/superlist/font/Rosario.css",
-            UbuntuMono: "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.1/superlist/font/UbuntuMono.css"
+            LongCang: "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.2/superlist/font/LongCang.css",
+            Monda: "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.2/superlist/font/Monda.css",
+            NotoSansSC: "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.2/superlist/font/NotoSansSC.css",
+            Playball: "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.2/superlist/font/Playball.css",
+            PTMono: "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.2/superlist/font/PTMono.css",
+            RobotoSlab: "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.2/superlist/font/RobotoSlab.css",
+            Rosario: "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.2/superlist/font/Rosario.css",
+            UbuntuMono: "https://cdn.jsdelivr.net/gh/toysorrow/cdn@1.2/superlist/font/UbuntuMono.css"
         },
         Suffix: {
             about: "简单地活着, 肆意又精彩."

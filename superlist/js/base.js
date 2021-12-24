@@ -378,9 +378,30 @@ function Base() {
             introduceUser   = $('.introduce-user span'),    // 简介名称
             menuList        = $('.menu-list ul'),           // 菜单列表
             menuLink        = $('.menu-link'),              // 菜单链接
+            menuItem        = $('.menuItem a'),             // 自定义菜单标签
             menuListArr     = window.config.MenuList,
             menuLinkArr     = window.config.MenuLink;
-        
+
+        // ===================自定义菜单标签===================
+        if (menuListArr.length > 0) {
+            $.each(menuListArr, function (i) {
+                let tab = menuListArr[i];
+                let a  = $("<a></a>");
+                if (tab.href && tab.href != '') {
+                    a.attr("href", tab.href);
+                    a.attr("target", tab.target);
+                } else {
+                    a.attr("href", "javascript:;");
+                    a.attr("target", "_self");    
+                }
+                if (tab.class && tab.class != '') {
+                    a.addClass(tab.class);
+                }
+                a.text(tab.name);
+                menuItem.append(a);
+            });
+        }
+            
         // 添加个人简介头像
         if (window.config.BlogAvatar != '') {
             introduceAvatar.append("<img src='" + window.config.BlogAvatar + "'>");
@@ -458,12 +479,12 @@ function Base() {
     this.addFooter = function() {
         const footer = $('#footer');
 
-        footer.append('<div><span class="face">ღゝ◡╹)ノ♡</span></div>');
+        // footer.append('<div><span class="face">ღゝ◡╹)ノ♡</span></div>');
 
         if (window.config.BottomText.left || window.config.BottomText.right)
             footer.append('<div>【' + window.config.BottomText.left + '<span><i class="iconfont icon-' + window.config.BottomText.icon + '"></i></span>' + window.config.BottomText.right + '】</div>');
 
-        if (window.config.ThemeInfo) footer.append('<div class="theme-info">Live For Code</div>');
+        // if (window.config.ThemeInfo) footer.append('<div class="theme-info">SuperList</div>');
 
         switch (parseInt(window.config.FooterStyle)) {
             case 1:
@@ -584,24 +605,7 @@ function Base() {
         }
 
         let headerTextList = [
-            '每一个不曾起舞的日子，都是对生命的辜负。',
-            '公主死去了，屠龙的少年还在燃烧',
-            '我们听过无数的道理，却仍旧过不好这一生。',
-            '生如夏花之绚烂，死如秋叶之静美。',
-            '但凡不能杀死你的，最终都会使你更强大。',
-            '好看的皮囊千篇一律，有趣的灵魂万里挑一。',
-            '青春是一本太仓促的书，我们含着泪，一读再读。',
-            '教育就是当一个人把在学校所学全部忘光之后剩下的东西。',
-            '孤独不是一种脾性，而是一种无奈。',
-            '有时候你以为天要塌下来了，其实是自己站歪了。',
-            '温柔正确的人总是难以生存，因为这世界既不温柔，也不正确。',
-            '死并非生的对立面，而作为生的一部分永存。',
-            '不要努力成为一个成功者，要努力成为一个有价值的人。',
-            '不要因为走得太远，忘了我们为什么出发。',
-            '你的问题主要在于读书不多而想得太多。',
-            '岁月不饶人，我亦未曾饶过岁月。',
-            '当你凝视深渊时，深渊也在凝视着你。',
-            '有的人25岁就死了，只是到75岁才埋葬。'
+            '正品直邮，品质保障'
         ];
 
         settings = {
@@ -637,8 +641,8 @@ function Base() {
             script.wrapRightMous('.up-down', '.up-down span');
 
             // 添加关注
-            let attHtml = '<div class="attention" switch="false"><span>关注</span><i class="iconfont icon-like"></i></div>';
-            wrapRight.prepend(attHtml);
+            // let attHtml = '<div class="attention" switch="false"><span>关注</span><i class="iconfont icon-like"></i></div>';
+            // wrapRight.prepend(attHtml);
 
             script.wrapRightMous('.attention', '.attention span');
             // 触发一次滚动处理，防止未有对象，初始化失败
@@ -703,24 +707,7 @@ function Base() {
         }
 
         let headerTextList = [
-            '每一个不曾起舞的日子，都是对生命的辜负。',
-            '公主死去了，屠龙的少年还在燃烧',
-            '我们听过无数的道理，却仍旧过不好这一生。',
-            '生如夏花之绚烂，死如秋叶之静美。',
-            '但凡不能杀死你的，最终都会使你更强大。',
-            '好看的皮囊千篇一律，有趣的灵魂万里挑一。',
-            '青春是一本太仓促的书，我们含着泪，一读再读。',
-            '教育就是当一个人把在学校所学全部忘光之后剩下的东西。',
-            '孤独不是一种脾性，而是一种无奈。',
-            '有时候你以为天要塌下来了，其实是自己站歪了。',
-            '温柔正确的人总是难以生存，因为这世界既不温柔，也不正确。',
-            '死并非生的对立面，而作为生的一部分永存。',
-            '不要努力成为一个成功者，要努力成为一个有价值的人。',
-            '不要因为走得太远，忘了我们为什么出发。',
-            '你的问题主要在于读书不多而想得太多。',
-            '岁月不饶人，我亦未曾饶过岁月。',
-            '当你凝视深渊时，深渊也在凝视着你。',
-            '有的人25岁就死了，只是到75岁才埋葬'
+            '正品直邮，品质保障'
         ];
 
         let settings = {
